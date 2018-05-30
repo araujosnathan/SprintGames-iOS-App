@@ -58,9 +58,9 @@ extension ViewController : UITableViewDataSource {
       
         cell.label.text = names
         cell.sprintName.text = sprints
-        cell.sprintName.font = UIFont.boldSystemFont(ofSize: 15.0)
+        cell.sprintName.font = UIFont.boldSystemFont(ofSize: 20.0)
         cell.winTitle.text = "Vencedor"
-        cell.winTitle.font = UIFont.boldSystemFont(ofSize: 15.0)
+        cell.winTitle.font = UIFont.boldSystemFont(ofSize: 20.0)
         
         cell.winnerName.text = winners
         
