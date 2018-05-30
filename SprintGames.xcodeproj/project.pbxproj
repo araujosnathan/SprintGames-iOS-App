@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F36D3D7520BF117400DD9E34 /* TableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D3D7220BF117300DD9E34 /* TableTableViewCell.swift */; };
+		F36D3D7620BF117400DD9E34 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D3D7320BF117400DD9E34 /* RankingTableViewCell.swift */; };
+		F36D3D7720BF117400DD9E34 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D3D7420BF117400DD9E34 /* Ranking.swift */; };
 		F3CBBC8F20BA515800E984F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CBBC8E20BA515800E984F7 /* AppDelegate.swift */; };
 		F3CBBC9120BA515800E984F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CBBC9020BA515800E984F7 /* ViewController.swift */; };
 		F3CBBC9420BA515800E984F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CBBC9220BA515800E984F7 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F36D3D7220BF117300DD9E34 /* TableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTableViewCell.swift; sourceTree = "<group>"; };
+		F36D3D7320BF117400DD9E34 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		F36D3D7420BF117400DD9E34 /* Ranking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
 		F3CBBC8B20BA515800E984F7 /* SprintGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CBBC8E20BA515800E984F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CBBC9020BA515800E984F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 		F3CBBC8D20BA515800E984F7 /* SprintGames */ = {
 			isa = PBXGroup;
 			children = (
+				F36D3D7420BF117400DD9E34 /* Ranking.swift */,
+				F36D3D7320BF117400DD9E34 /* RankingTableViewCell.swift */,
+				F36D3D7220BF117300DD9E34 /* TableTableViewCell.swift */,
 				F3CBBC8E20BA515800E984F7 /* AppDelegate.swift */,
 				F3CBBC9020BA515800E984F7 /* ViewController.swift */,
 				F3CBBC9220BA515800E984F7 /* Main.storyboard */,
@@ -258,6 +267,9 @@
 			files = (
 				F3CBBC9120BA515800E984F7 /* ViewController.swift in Sources */,
 				F3CBBC8F20BA515800E984F7 /* AppDelegate.swift in Sources */,
+				F36D3D7620BF117400DD9E34 /* RankingTableViewCell.swift in Sources */,
+				F36D3D7520BF117400DD9E34 /* TableTableViewCell.swift in Sources */,
+				F36D3D7720BF117400DD9E34 /* Ranking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
