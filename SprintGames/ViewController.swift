@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     let gameNames = [("Splashy"),("Rotator"),("Chilly Snow"),("Thief"),("Twist")]
-    let sprintNames = [("Sprint-5"),("Sprint-4"),("Sprint-3"),("Sprint-2"),("Sprint-1")]
+    let sprintNames = [("Sprint 5"),("Sprint 4"),("Sprint 3"),("Sprint 2"),("Sprint 1")]
     let winnerNames = [("Nathan"),("Nathan"),("Nathan"),("Nathan"),("Nathan")]
     let winnerImg = UIImage(named: "winner")
     let timeLineImg = UIImage(named: "line")

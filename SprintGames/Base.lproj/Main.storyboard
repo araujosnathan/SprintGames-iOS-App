@@ -85,6 +85,16 @@
                                         <connections>
                                             <outlet property="playerImg" destination="ogo-oL-bM5" id="CDw-RZ-QGu"/>
                                             <outlet property="playerName" destination="9DF-7x-0WN" id="FgY-Xo-DnX"/>
+                                            <outlet property="star1" destination="g9m-R0-J8w" id="sb1-Sx-m7W"/>
+                                            <outlet property="star10" destination="L6a-fO-ohg" id="itf-Q3-SD8"/>
+                                            <outlet property="star2" destination="qmZ-0O-UOI" id="Tuu-rY-0fS"/>
+                                            <outlet property="star3" destination="eOX-gr-0Vy" id="1o4-C0-wjO"/>
+                                            <outlet property="star4" destination="Pfk-Xx-Ryl" id="m8u-8k-kna"/>
+                                            <outlet property="star5" destination="WM9-Jv-v1i" id="9Ii-SD-55k"/>
+                                            <outlet property="star6" destination="JP2-Zw-GNm" id="C2v-n3-U3a"/>
+                                            <outlet property="star7" destination="ruO-Zb-cEQ" id="EW0-4Z-c7q"/>
+                                            <outlet property="star8" destination="Q8L-2X-5ha" id="VDo-Q5-ZoL"/>
+                                            <outlet property="star9" destination="xfF-j8-g5s" id="ZWR-vG-RHQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -204,7 +214,7 @@
         <scene sceneID="jkk-Sc-IBd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1G6-Ww-9Hh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Timeline" id="MJj-t2-tah"/>
+                    <tabBarItem key="tabBarItem" title="Timeline" image="timelineIcon" id="MJj-t2-tah"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m2Q-Es-gpe">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -245,7 +255,9 @@
         <scene sceneID="hEs-rG-0xc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8ju-JA-ruA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ranking" id="xaJ-5h-IOd"/>
+                    <tabBarItem key="tabBarItem" title="Ranking" image="rankingIcon" id="xaJ-5h-IOd">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CJe-Ym-2Gu">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -261,4 +273,8 @@
             <point key="canvasLocation" x="976.79999999999995" y="-650.82458770614699"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rankingIcon" width="22" height="22"/>
+        <image name="timelineIcon" width="22" height="22"/>
+    </resources>
 </document>
