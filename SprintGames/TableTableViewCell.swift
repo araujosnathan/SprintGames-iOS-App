@@ -11,6 +11,7 @@ import UIKit
 class TableTableViewCell: UITableViewCell {
     @IBOutlet weak var sprintName: UILabel!
     
+    @IBOutlet weak var lineUp: UIImageView!
     @IBOutlet weak var winnerName: UILabel!
     @IBOutlet weak var winTitle: UILabel!
     @IBOutlet weak var line: UIImageView!

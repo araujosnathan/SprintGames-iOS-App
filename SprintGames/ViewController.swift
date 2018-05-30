@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     let gameNames = [("Splashy"),("Rotator"),("Chilly Snow"),("Thief"),("Twist")]
     let sprintNames = [("Sprint-5"),("Sprint-4"),("Sprint-3"),("Sprint-2"),("Sprint-1")]
-    let winnerNames = [("..."),("Nathan"),("Nathan"),("Nathan"),("Nathan")]
+    let winnerNames = [("Nathan"),("Nathan"),("Nathan"),("Nathan"),("Nathan")]
     let winnerImg = UIImage(named: "winner")
     let timeLineImg = UIImage(named: "line")
     
@@ -63,8 +63,25 @@ extension ViewController : UITableViewDataSource {
         cell.winTitle.font = UIFont.boldSystemFont(ofSize: 15.0)
         
         cell.winnerName.text = winners
-        cell.photo.image=Images
+        
+        if (indexPath .row == 0)
+        {
+            cell.lineUp.isHidden = true
+        }
+        else if (indexPath .row == gameNames.count - 1)
+        {
+            cell.line.isHidden = true
+        }
+//        else
+//        {
+//            cell.lineUp.image=timeLineImg
+//            cell.line.image=timeLineImg
+//        }
+        
+        cell.lineUp.image=timeLineImg
         cell.line.image=timeLineImg
+        cell.photo.image=Images
+       
         
         return cell
     }
